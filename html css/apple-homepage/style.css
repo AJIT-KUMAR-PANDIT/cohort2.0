@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    background-color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.gifts-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video {
+    object-position: top;
+    object-fit: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+.video-text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0077ED;
+    border: #0077ED solid 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button2 {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #0077ED;
+    color: #ffff;
+    border: #0077ED solid 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button3 {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #0077ED;
+    border: #0077ED solid 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #0077ED;
+    color: white;
+}
+
+.iphone17 {
+    background-image: url(./assets/hero_iphone_17_pro__bknyzxfk2agi_largetall_2x.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone-text {
+    color: white;
+    font-weight: 800px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.iphone-text-p {
+    color: white;
+    font-weight: 400px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.but1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.iphone17Air {
+    background-image: url(./assets/hero_iphone_air__0gxyavihpiqu_largetall_2x.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphoneAir-text {
+    color: black;
+    font-weight: 800px;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.iphoneAir-text-p {
+    color: black;
+    font-weight: 400px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.promo1 {
+    background-image: url(./assets/promo_iphone_17__bhofuohbsu3m_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 40px;
+}
+
+.promo2 {
+    background-image: url(./assets/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 40px;
+}
+
+.promo3 {
+    background-image: url(./assets/promo_apple_watch_series_11__b63hxviqvonm_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 40px;
+
+}
+
+.promo4 {
+    background-image: url(./assets/promo_apple_watch_se_3__fz5y29qx5mmy_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 40px;
+}
+
+.promo5 {
+    background-image: url(./assets/promo_apple_watch_ultra3__bwvslhbxx99e_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.promo6 {
+    background-image: url(./assets/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+    height: 80vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+    font-size: 18px;
+
+    padding-top: 20px;
+}
+
+.imgtext {
+    padding-top: 40px;
+    height: auto;
+    width: 400px;
+}
+
+.promo4-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: -80px;
+}
