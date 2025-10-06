@@ -251,7 +251,7 @@ header {
 }
 
 .card1 {
-    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 48% 0, 60% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
     background-color: #8C01FA;
     background-image: url(./assets/c1.png);
     background-size: cover;
@@ -262,7 +262,7 @@ header {
 }
 
 .card2 {
-    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 48% 0, 60% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
     background-color: #D5F903;
     background-image: url(./assets/c2.png);
     background-size: cover;
@@ -273,7 +273,7 @@ header {
 }
 
 .card3 {
-    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 48% 0, 60% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
     background-color: #F96A02;
     background-image: url(./assets/c3.png);
     background-size: cover;
@@ -287,4 +287,140 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1B1C1E;
+    padding: 20px;
+    position: relative;
+}
+
+.card-text1 {
+    position: absolute;
+    top: 50px;
+    right: -40px;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color: #9E9C9D;
+    z-index: 10000;
+}
+
+.card-text2 {
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color: #9E9C9D;
+    z-index: 10000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.card-text2 img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card-limited-edition1 {
+    clip-path: polygon(0 44%, 100% 45%, 100% 75%, 28% 75%, 44% 93%, 0 75%, 0% 75%);
+
+    z-index: 10000;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    background-color: #D0F710;
+    padding: 80px 55px 55px 55px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-limited-edition2 {
+    clip-path: polygon(0 44%, 100% 45%, 100% 75%, 28% 75%, 44% 93%, 0 75%, 0% 75%);
+
+    z-index: 10000;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    background-color: #F96A03;
+    padding: 80px 55px 55px 55px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B1C1E;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 5px 0px rgba(134, 22, 229, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(134, 22, 229, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(134, 22, 229, 0.75);
+}
+
+.button2 {
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B1C1E;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 5px 0px rgba(93, 229, 22, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(93, 229, 22, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(93, 229, 22, 0.75);
+}
+
+.button3 {
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B1C1E;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 5px 0px rgba(229, 55, 22, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(229, 55, 22, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(229, 55, 22, 0.75);
+}
+
+.body {
+    margin-bottom: 100px;
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
