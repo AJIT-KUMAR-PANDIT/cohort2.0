@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-
     color: #FCFCFC;
     text-decoration: none;
 }
@@ -11,6 +10,8 @@ body {
     height: 100%;
     width: 100%;
     background-color: #111111;
+    overflow-x: hidden;
+
 }
 
 nav {
@@ -195,4 +196,95 @@ header {
     text-decoration: underline;
     text-underline-offset: 15px;
     color: #D5F903;
+}
+
+.left-arrow {
+    background-color: #111111;
+    color: #FCFCFC;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.right-arrow {
+    background-color: #FCFCFC;
+    color: #111111;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.body-container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-text {
+    font-size: medium;
+    color: #D5F903;
+}
+
+.auctions-text {
+    font-size: medium;
+    color: #FCFCFC;
+}
+
+.card1 {
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    background-color: #8C01FA;
+    background-image: url(./assets/c1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+}
+
+.card2 {
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    background-color: #D5F903;
+    background-image: url(./assets/c2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+}
+
+.card3 {
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 68% 0, 80% 15%, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 64% 100%, 54% 85%, 0% 85%);
+    background-color: #F96A02;
+    background-image: url(./assets/c3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
