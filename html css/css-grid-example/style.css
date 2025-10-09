@@ -81,7 +81,7 @@ nav {
 /* herosection */
 
 .hero-section {
-
+    background-color: #F6F7F9;
     margin: 100px;
     padding: 11px;
     padding-left: 21px;
@@ -167,4 +167,158 @@ nav {
 .number-title {
     font-size: 16px;
     color: black;
+}
+
+/* about us */
+
+#about {
+    background-color: #F6F7F9;
+
+    padding: 11px;
+    padding-left: 81px;
+    padding-right: 81px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 40px 1fr;
+    grid-gap: 21px;
+    grid-template-areas: "text-aboutus aboutus-img"
+        "aboutus-heading aboutus-img"
+        "aboutus-desc aboutus-img"
+    ;
+}
+
+.aboutus-img {
+    background-image: url(./assets/about.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: aboutus-img;
+    height: 400px;
+}
+
+.aboutus-desc {
+    font-size: 16px;
+    color: black;
+    grid-area: aboutus-desc;
+}
+
+.aboutus-heading {
+    font-size: 46px;
+    font-weight: 100px;
+    color: black;
+    grid-area: aboutus-heading;
+}
+
+
+
+.text-aboutus {
+    font-size: 16px;
+    font-weight: 100px;
+    color: black;
+    grid-area: text-aboutus;
+}
+
+/* image gallery */
+
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 0.2fr 1fr 1fr;
+    grid-template-areas: "expertise expertise expertise expertise"
+        "explore explore descimages descimages"
+        "people-img1 people-img2 people-img3 people-img4"
+        "people-img5 people-img6 people-img7 people-img8";
+}
+
+.expertise {
+    font-size: 46px;
+    font-weight: 100px;
+    color: black;
+    grid-area: expertise;
+}
+
+.explore {
+    font-size: 16px;
+    font-weight: 100px;
+    color: black;
+    grid-area: explore;
+}
+
+.descimages {
+    font-size: 16px;
+    font-weight: 100px;
+    color: black;
+    grid-area: descimages;
+}
+
+.people-img1 {
+    background-image: url(./assets/1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img1;
+}
+
+.people-img2 {
+    background-image: url(./assets/1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img2;
+}
+
+.people-img3 {
+    background-image: url(./assets/2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img3;
+}
+
+.people-img4 {
+    background-image: url(./assets/3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img4;
+}
+
+.people-img5 {
+    background-image: url(./assets/4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img5;
+}
+
+.people-img6 {
+    background-image: url(./assets/5.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img6;
+}
+
+.people-img7 {
+    background-image: url(./assets/6.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img7;
+}
+
+.people-img8 {
+    background-image: url(./assets/7.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: people-img8;
 }
