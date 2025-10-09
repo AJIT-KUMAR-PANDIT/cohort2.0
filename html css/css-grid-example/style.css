@@ -25,6 +25,7 @@ nav {
     top: 0px;
     left: 0px;
     z-index: 1000;
+    background-color: white;
 }
 
 .nav-button {
@@ -103,4 +104,23 @@ nav {
 
 #hero-heading {
     grid-area: hero-heading;
+}
+
+/* number crousel */
+
+#number-crousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 21px;
+    grid-template-areas: "number-box number-box number-box number-box";
+}
+
+.number-box {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    gap: 11px;
+    grid-area: number-box;
 }
