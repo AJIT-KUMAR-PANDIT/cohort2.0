@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "concurrently \"live-server  \" \"sass --watch styles.scss styles.css\""
+  },
+  "dependencies": {
+    "sass": "^1.93.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "concurrently": "^8.2.2"
+  }
+}
