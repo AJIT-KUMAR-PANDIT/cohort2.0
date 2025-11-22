@@ -1,4 +1,4 @@
-const mp3 = "../assets/mp3.json";
+const mp3 = "./assets/mp3.json";
 
 const keyShow = document.querySelector("#bottomKeys");
 const myKeys = document.querySelector("#myKeys");
